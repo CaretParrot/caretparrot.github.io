@@ -1,0 +1,46 @@
+html {
+    margin: 0 15%;
+    width: auto;
+}
+
+.header-link {
+    padding: 0;
+}
+
+.nav {
+    grid: auto / auto auto;
+}
+
+.nav * {
+    color: light-dark(var(--light-2), var(--dark-2));
+    background-color: light-dark(var(--dark-2), var(--light-2));
+}
+
+img {
+    width: 100%;
+}
+
+#bio {
+    width: fit-content;
+    margin: auto;
+    grid: auto / 1fr 3fr;
+    background-color: light-dark(var(--light-2), var(--dark-2));
+}
+
+em,
+strong {
+    padding: 0;
+}
+
+em {
+    font-style: italic;
+}
+
+#works {
+    grid: auto / 1fr 1fr 1fr;
+}
+
+.work {
+    padding: var(--base-unit);
+    background-color: light-dark(var(--light-2), var(--dark-2))
+}
