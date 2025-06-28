@@ -1,6 +1,7 @@
 html {
-    margin: 0 15%;
-    width: auto;
+    margin: auto;
+    min-width: 80%;
+    width: 80%;
 }
 
 .header-link {
@@ -21,8 +22,6 @@ img {
 }
 
 #bio {
-    width: fit-content;
-    margin: auto;
     grid: auto / 1fr 3fr;
     background-color: light-dark(var(--light-2), var(--dark-2));
 }
@@ -41,6 +40,25 @@ em {
 }
 
 .work {
+    height: 100%;
     padding: var(--base-unit);
     background-color: light-dark(var(--light-2), var(--dark-2))
+}
+
+@media (hover: none) {
+    html {
+        width: 100%;
+    }
+
+    #bio {
+        grid: auto / 1fr;
+    }
+
+    #works {
+        grid: auto / 1fr;
+    }
+}
+
+p>a {
+    padding: 0;
 }
