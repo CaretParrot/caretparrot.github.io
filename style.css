@@ -1,6 +1,5 @@
 html {
     margin: auto;
-    min-width: 80%;
     width: 80%;
 }
 
@@ -9,7 +8,8 @@ html {
 }
 
 .nav {
-    grid: auto / auto auto;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .nav * {
@@ -35,14 +35,18 @@ em {
     font-style: italic;
 }
 
-#works {
+#works, #events {
+    display: grid;
     grid: auto / 1fr 1fr 1fr;
 }
 
-.work {
+.work, .event {
     height: 100%;
-    padding: var(--base-unit);
     background-color: light-dark(var(--light-2), var(--dark-2))
+}
+
+p>a {
+    padding: 0;
 }
 
 @media (hover: none) {
@@ -57,8 +61,4 @@ em {
     #works {
         grid: auto / 1fr;
     }
-}
-
-p>a {
-    padding: 0;
 }
