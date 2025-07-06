@@ -54,11 +54,7 @@ p>a {
         width: 100%;
     }
 
-    #bio {
-        grid: auto / 1fr;
-    }
-
-    #works {
+    #bio, #works, #events {
         grid: auto / 1fr;
     }
 }
