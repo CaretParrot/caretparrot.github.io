@@ -7,17 +7,17 @@ html {
 }
 
 .nav {
-    display: flex;
-    flex-flow: row wrap;
+    grid: auto / 1fr 1fr 1fr 1fr;
 }
 
 .nav * {
-    color: light-dark(var(--light-2), var(--dark-2));
-    background-color: light-dark(var(--dark-2), var(--light-2));
+    color: light-dark(var(--dark-3), var(--light-3));
+    background-color: light-dark(var(--light-3), var(--dark-3));
 }
 
 img {
     width: 100%;
+    padding: 0;
 }
 
 #intro {
@@ -45,12 +45,11 @@ em {
     background-color: light-dark(var(--light-2), var(--dark-2))
 }
 
-p>a {
+p>a, span {
     padding: 0;
 }
 
 @media (hover: hover) {
-
     html {
         margin: auto;
         width: 80%;
@@ -60,8 +59,7 @@ p>a {
         grid: auto / 1fr 3fr;
     }
 
-    #works,
-    #events {
-        grid: auto / 1fr 1fr 1fr;
+    #works, #events {
+        grid: auto / repeat(3, 1fr);
     }
 }

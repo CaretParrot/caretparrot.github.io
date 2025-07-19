@@ -27,10 +27,13 @@ let works = {
 }
 
 let events = {
+
 }
 
 window.onload = function () {
     id.setupTree();
+    id.year.innerHTML = new Date().getFullYear();
+
     if (Object.keys(works).length === 0) {
         id.works.style.grid = "auto / 1fr";
         id.works.innerHTML = "No works are available! Wait, how did I become a composer without writing any music? @_@";
