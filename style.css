@@ -57,7 +57,7 @@ p>a, span {
     width: 100%;
 }
 
-@media (hover: hover) {
+@media (pointer: fine) {
     html {
         margin: auto;
         width: 80%;
