@@ -53,7 +53,7 @@ window.onload = function () {
 
     if (Object.keys(events).length === 0) {
         id.events.style.grid = "auto / 1fr";
-        id.events.innerHTML = "No events currently! Seems fame has slipped my grasp... :/";
+        id.events.innerHTML = "<p>No events currently! Seems fame has slipped my grasp... :/</p>";
     } else {
         for (let event in events) {
             let newEntry = document.createElement("div");
