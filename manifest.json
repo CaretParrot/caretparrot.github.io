@@ -1,7 +1,7 @@
 {
-    "name": "<name>",
-    "short_name": "<name>",
-    "start_url": "/<name>",
+    "name": "Rishi Venkatesh",
+    "short_name": "Rishi",
+    "start_url": "/",
     "icons": [
         {
             "src": "https://caretparrot.github.io/my-libraries/Profile%20Picture.png",
