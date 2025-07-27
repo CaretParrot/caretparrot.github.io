@@ -1,5 +1,6 @@
 html {
-    width: 100%;
+    margin: auto;
+    width: 80%;
 }
 
 .header-link {
@@ -21,7 +22,7 @@ img {
 }
 
 #intro {
-    grid: auto / 1fr;
+    grid: auto / 1fr 3fr;
     background-color: light-dark(var(--light-2), var(--dark-2));
 }
 
@@ -34,9 +35,8 @@ em {
     font-style: italic;
 }
 
-#works,
-#events {
-    grid: auto / 1fr;
+#works, #events {
+    grid: auto / repeat(3, 1fr);
 }
 
 .work,
@@ -50,28 +50,34 @@ p>a, span {
 }
 
 .footer {
-    position: static;
+    position: fixed;
     left: 0;
     bottom: 0;
-    border-radius: 0;
     width: 100%;
 }
 
-@media (pointer: fine) {
+.footer p {
+    background-color: light-dark(var(--light-3), var(--dark-3));
+    border-radius: 0;
+}
+
+@media (pointer: coarse) {
     html {
-        margin: auto;
-        width: 80%;
+        width: 100%;
     }
 
     #intro {
-        grid: auto / 1fr 3fr;
+        grid: auto / 1fr;
     }
 
-    #works, #events {
-        grid: auto / repeat(3, 1fr);
+    #works,
+    #events {
+        grid: auto / 1fr;
     }
 
     .footer {
         position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }
