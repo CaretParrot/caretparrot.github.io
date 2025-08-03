@@ -1,10 +1,12 @@
 let works = {
     "Fast & Forte": {
+        duration: "3:47",
+        opus: 24,
         originality: "Original Work",
         instrumentation: ["String Orchestra"],
+        published: "July 2025",
         link: "https://www.jwpepper.com/fast-forte-11634015-2603737/p",
         image: "./assets/Fast & Forte.jpg",
-        description: `Fast & Forte is a "driving" piece that, when played at full tempo, lasts less than four minutes. But don't let its size fool you! It's filled with intense harmonies and blazing energy that keeps the listener on the edge of their seat, culminating in an even more chaotic ending, with some lighter sections for a good balance. Whether as a concert opener or concert closer, Fast & Forte is sure to be a fun time for the players and the audience.`,
     }
 }
 
@@ -19,9 +21,11 @@ function refreshResults() {
             continue;
         }
 
-        let newEntry = document.createElement("div");
+        let newEntry = document.createElement("a");
+        newEntry.target = "_blank";
+        newEntry.href = works[work].link;
         newEntry.className = "work";
-        newEntry.innerHTML = `<a target="_blank" href="${works[work].link}" class="workCard"><img src="${works[work].image}"><p>${works[work].description}</p><p>Duration: ${works[work].duration}</p></a>`;
+        newEntry.innerHTML = `<img src="${works[work].image}"><h1>${work}</h1><p class="bold">${works[work].instrumentation}</p><p>Opus ${works[work].opus}<br>Duration: ${works[work].duration}<br>Published: ${works[work].published}</p>`;
         try {
             id.works.appendChild(newEntry);
         }
