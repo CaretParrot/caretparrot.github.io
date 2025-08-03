@@ -37,6 +37,7 @@ em {
 #works,
 #events {
     grid: auto / 1fr;
+    padding: 0;
 }
 
 .work,
@@ -47,6 +48,7 @@ em {
 
 p>a, span {
     padding: 0;
+    background-color: transparent;
 }
 
 .footer {
@@ -57,7 +59,13 @@ p>a, span {
     width: 100%;
 }
 
-@media (pointer: fine) {
+.workCard {
+    padding: 0;
+    display: grid;
+    grid: auto / 1fr 2fr 2fr;
+}
+
+@media (orientation: landscape) {
     html {
         margin: auto;
         width: 80%;
@@ -65,10 +73,6 @@ p>a, span {
 
     #intro {
         grid: auto / 1fr 3fr;
-    }
-
-    #works, #events {
-        grid: auto / repeat(3, 1fr);
     }
 
     .footer {

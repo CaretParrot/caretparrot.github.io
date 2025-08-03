@@ -1,33 +1,39 @@
 let works = {
-    "Nocturne": {
-        originality: "original work",
-        instrumentation: "string orchestra",
-        link: "https://youtube.com"
-    },
     "Fast & Forte": {
-        originality: "original work",
-        instrumentation: "string orchestra",
-        link: ""
-    },
-    "Theme & Variations": {
-        originality: "original work",
-        instrumentation: "string orchestra",
-        link: ""
-    },
-    "Suite For Strings": {
-        originality: "original work",
-        instrumentation: "string orchestra",
-        link: ""
-    },
-    "Introduction & Allegro": {
-        originality: "original work",
-        instrumentation: "string orchestra",
-        link: ""
+        originality: "Original Work",
+        instrumentation: ["String Orchestra"],
+        link: "https://www.jwpepper.com/fast-forte-11634015-2603737/p",
+        image: "./assets/Fast & Forte.jpg",
+        description: `Fast & Forte is a "driving" piece that, when played at full tempo, lasts less than four minutes. But don't let its size fool you! It's filled with intense harmonies and blazing energy that keeps the listener on the edge of their seat, culminating in an even more chaotic ending, with some lighter sections for a good balance. Whether as a concert opener or concert closer, Fast & Forte is sure to be a fun time for the players and the audience.`,
     }
 }
 
 let events = {
 
+}
+
+function refreshResults() {
+    id.works.innerHTML = "";
+    for (let work in works) {
+        if (!work.includes(id.searchField.value) && id.searchField.value !== "") {
+            continue;
+        }
+
+        let newEntry = document.createElement("div");
+        newEntry.className = "work";
+        newEntry.innerHTML = `<a target="_blank" href="${works[work].link}" class="workCard"><img src="${works[work].image}"><p>${works[work].description}</p><p>Duration: ${works[work].duration}</p></a>`;
+        try {
+            id.works.appendChild(newEntry);
+        }
+        catch (error) {
+            break;
+        }
+    }
+
+    if (id.works.innerHTML === "") {
+        id.works.style.grid = "auto / 1fr";
+        id.works.innerHTML = "<p>No filter results found.</p>";
+    }
 }
 
 window.onload = function () {
@@ -36,19 +42,14 @@ window.onload = function () {
 
     if (Object.keys(works).length === 0) {
         id.works.style.grid = "auto / 1fr";
-        id.works.innerHTML = "No works are available! Wait, how did I become a composer without writing any music? @_@";
+        id.works.innerHTML = "<p>No works are available! Wait, how did I become a composer without writing any music? @_@</p>";
     } else {
-        for (let work in works) {
-            let newEntry = document.createElement("div");
-            newEntry.className = "work";
-            newEntry.innerHTML = `<a target="_blank" href="${works[work].link}"><h3>${work}</h3></a>`;
-            try {
-                id.works.appendChild(newEntry);
-            }
-            catch (error) {
+        refreshResults();
+    }
 
-            }
-        }
+    id.searchField.oninput = function (event) {
+        refreshResults();
+        console.log();
     }
 
     if (Object.keys(events).length === 0) {
