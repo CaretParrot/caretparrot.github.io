@@ -75,7 +75,7 @@ iframe {
     grid: auto / 1fr 2fr 2fr;
 }
 
-@media (orientation: landscape) {
+@media (orientation: portrait) {
     html {
         width: 100%;
     }
