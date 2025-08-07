@@ -60,6 +60,11 @@ span {
     padding: 0;
 }
 
+iframe {
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
 @media (orientation: portrait) {
     html {
         width: 100%;
@@ -71,5 +76,10 @@ span {
 
     #works {
         grid: auto / 1fr;
+    }
+
+    iframe {
+        width: 100%;
+        aspect-ratio: 1;
     }
 }
