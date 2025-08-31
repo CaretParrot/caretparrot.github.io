@@ -35,9 +35,12 @@ em {
     font-style: italic;
 }
 
-#events {
-    grid: auto / 1fr;
-    padding: 0;
+strong {
+    font-weight: bold;
+}
+
+.card {
+    background-color: light-dark(var(--light-2), var(--dark-2));
 }
 
 p>a,
@@ -48,16 +51,6 @@ span {
 
 .footer p {
     background-color: light-dark(var(--light-3), var(--dark-3));
-}
-
-#works {
-    grid: auto / 1fr 1fr;
-}
-
-.work {
-    display: grid;
-    grid: auto / 1fr 2fr 1fr 1fr;
-    padding: 0;
 }
 
 iframe {
@@ -80,6 +73,6 @@ iframe {
 
     iframe {
         width: 100%;
-        aspect-ratio: 1;
+        aspect-ratio: 1/2;
     }
 }
