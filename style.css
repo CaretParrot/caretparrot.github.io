@@ -77,4 +77,8 @@ iframe {
         width: 100%;
         aspect-ratio: 1/2;
     }
+
+    .card {
+        grid: auto / 1fr;
+    }
 }
