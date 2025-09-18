@@ -5,6 +5,7 @@ html {
 
 .nav {
     grid: auto / 1fr 1fr 1fr 1fr;
+    display: grid;
 }
 
 .nav * {
@@ -60,9 +61,17 @@ iframe {
     aspect-ratio: 2/1;
 }
 
+#phoneNav {
+    display: none;
+}
+
 @media (orientation: portrait) {
     html {
         width: 100%;
+    }
+    
+    .nav {
+        display: none;
     }
 
     #intro {
@@ -80,5 +89,9 @@ iframe {
 
     .card {
         grid: auto / 1fr;
+    }
+
+    #phoneNav {
+        display: block;
     }
 }

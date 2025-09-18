@@ -15,6 +15,10 @@ let announcements = [
 window.onload = function () {
     id.setupTree();
     id.year.innerHTML = new Date().getFullYear();
+    
+    id.phoneNav.onchange = function (event) {
+        window.location.href = event.target.value;
+    }
 
     for (let i = 0; i < announcements.length; i++) {
         let card = document.createElement("div");
@@ -23,3 +27,5 @@ window.onload = function () {
         id.announcements.appendChild(card);
     }
 }
+
+
