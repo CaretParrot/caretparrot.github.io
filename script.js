@@ -8,7 +8,7 @@ let announcements = [
         date: (new Date(2025, 7, 31).toDateString()),
         image: "./assets/5 Vignettes.png",
         content: `<p>I've finished drafts of two works, both of which I have spent well over half a year working on: "5 Vignettes For Violin & Piano," and my first symphony. I hope to be able to make the MIDI recordings available on my <a target="_blank" href="https://youtube.com/@rvcomposition">YouTube channel</a> shortly. I'm very excited to share these new works with you.</p>
-        <p>Additionally, I have a request. If any of you would be interested in premiering any of the movements in the 5 Vignettes, please contact me through my <a href="https://instagram.com/caretparrot">Instagram direct messages</a>! The work is scored for <strong>violin and piano</strong>, and generally demands <strong>advanced</strong> skills from both players. Key signatures and accidentals are challenging in all movements, but the work is generally tonal and requires no contemporary techniques (like Bartok pizzicato, col legno, etc). Further details are available through contact.</p>`
+        <p>Additionally, I have a request. If any of you would be interested in premiering any of the movements in the 5 Vignettes, please contact me through <a href="https://discord.gg/hAd2mcstZe">The Composers Foundry</a>! The work is scored for <strong>violin and piano</strong>, and generally demands <strong>advanced</strong> skills from both players. Key signatures and accidentals are challenging in all movements, but the work is generally tonal and requires no contemporary techniques (like Bartok pizzicato, col legno, etc). Further details are available through contact.</p>`
     }
 ]
 
