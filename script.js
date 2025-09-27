@@ -1,5 +1,10 @@
 let announcements = [
     {
+        date: (new Date(2025, 8, 27).toDateString()),
+        image: "./assets/Torque.png",
+        content: `<p>I have launched a few new electronic tracks on YouTube, which will be part of my upcoming album, <em>Torque</em>. One of them is a remaster of a work that was previously on Bandlab, <a href="https://youtu.be/bAEICr0filc">Stardust</a>. The other is <a href="https://youtu.be/JkiadaV2_DE">Orange Light</a>, a totally new work. Hope you enjoy!</p>`
+    },
+    {
         date: (new Date(2025, 8, 13).toDateString()),
         image: "./assets/Lullaby.png",
         content: `<p>Probably should have done this earlier, but I have also added a listing for "Lullaby," a short work scored for two violas. If you would be interested in premiering this piece, please contact me through Instagram.</p>`
