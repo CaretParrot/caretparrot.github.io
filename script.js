@@ -32,5 +32,3 @@ window.onload = function () {
         id.announcements.appendChild(card);
     }
 }
-
-
