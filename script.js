@@ -1,5 +1,10 @@
 let announcements = [
     {
+        date: (new Date(2025, 10, 1).toDateString()),
+        image: "./assets/Rishi Flag.png",
+        content: `<p>I am happy to announce my new Ko-Fi page! If you would like to support my work, <a href="https://ko-fi.com/caretparrot" target="_blank">go to my page</a> and feel free to tip me. Any amount helps to further my mission of bring more music to the world.</p>`
+    },
+    {
         date: (new Date(2025, 8, 27).toDateString()),
         image: "./assets/Torque.png",
         content: `<p>I have launched a few new electronic tracks on YouTube, which will be part of my upcoming album, <em>Torque</em>. One of them is a remaster of a work that was previously on Bandlab, <a href="https://youtu.be/bAEICr0filc">Stardust</a>. The other is <a href="https://youtu.be/JkiadaV2_DE">Orange Light</a>, a totally new work. Hope you enjoy!</p>`
@@ -20,7 +25,7 @@ let announcements = [
 window.onload = function () {
     id.setupTree();
     id.year.innerHTML = new Date().getFullYear();
-    
+
     id.phoneNav.onchange = function (event) {
         window.location.href = event.target.value;
     }

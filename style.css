@@ -4,7 +4,7 @@ html {
 }
 
 .nav {
-    grid: auto / 1fr 2fr 2fr 2fr 2fr;
+    grid: auto / 1fr 2fr 2fr 2fr 2fr 1fr;
     display: grid;
 }
 
