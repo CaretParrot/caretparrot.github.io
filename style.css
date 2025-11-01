@@ -8,20 +8,18 @@ html {
     display: grid;
 }
 
-.nav * {
-    color: light-dark(var(--dark-3), var(--light-3));
-    background-color: light-dark(var(--light-3), var(--dark-3));
-}
-
 img {
     width: 100%;
     padding: 0;
     pointer-events: none;
 }
 
+.content {
+    background-color: var(--element);
+}
+
 #intro {
     grid: auto / 1fr 3fr;
-    background-color: light-dark(var(--light-2), var(--dark-2));
 }
 
 em,
@@ -42,7 +40,7 @@ strong {
 }
 
 .card {
-    background-color: light-dark(var(--light-2), var(--dark-2));
+    background-color: var(--element);
     grid: auto / 1fr 3fr;
 }
 
@@ -57,7 +55,7 @@ span {
 }
 
 .footer p {
-    background-color: light-dark(var(--light-3), var(--dark-3));
+    background-color: light-dark(var(--light-accent), var(--dark-accent));
 }
 
 iframe {
