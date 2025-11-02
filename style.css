@@ -82,9 +82,15 @@ iframe {
     html {
         width: 100%;
     }
-    
+
+    img {
+        width: 50% !important;
+    }
+
     .nav {
-        display: none;
+        overflow-x: auto;
+        grid: auto / 1fr 1fr 1fr;
+        background-color: transparent !important;
     }
 
     #intro {

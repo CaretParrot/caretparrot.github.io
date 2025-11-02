@@ -26,10 +26,6 @@ window.onload = function () {
     id.setupTree();
     id.year.innerHTML = new Date().getFullYear();
 
-    id.phoneNav.onchange = function (event) {
-        window.location.href = event.target.value;
-    }
-
     for (let i = 0; i < announcements.length; i++) {
         let card = document.createElement("div");
         card.innerHTML = `<img src="${announcements[i].image}"><div><h1>${announcements[i].date}</h1>${announcements[i].content}</div>`;
