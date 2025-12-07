@@ -23,13 +23,11 @@ let announcements = [
 ]
 
 window.onload = function () {
-    id.setupTree();
-    id.year.innerHTML = new Date().getFullYear();
-
     for (let i = 0; i < announcements.length; i++) {
         let card = document.createElement("div");
         card.innerHTML = `<img src="${announcements[i].image}"><div><h1>${announcements[i].date}</h1>${announcements[i].content}</div>`;
         card.classList += "card";
-        id.announcements.appendChild(card);
+        let announcementsDiv = document.getElementById("announcements") || null;
+        announcementsDiv?.appendChild(card);
     }
 }
