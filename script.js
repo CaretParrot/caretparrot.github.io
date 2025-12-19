@@ -22,6 +22,8 @@ let announcements = [
     }
 ]
 
+let pageGroup = new PageGroup("page", "grid");
+
 window.onload = function () {
     for (let i = 0; i < announcements.length; i++) {
         let card = document.createElement("div");
