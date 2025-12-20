@@ -22,6 +22,7 @@ let announcements = [
     }
 ]
 
+// @ts-ignore
 let pageGroup = new PageGroup("page", "grid");
 
 window.onload = function () {
