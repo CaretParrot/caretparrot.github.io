@@ -8,7 +8,7 @@ html {
 }
 
 .nav * {
-    background-color: var(--accent);
+    background-color: var(--accent-element);
     height: 100%;
 }
 
