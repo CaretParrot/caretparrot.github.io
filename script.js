@@ -30,7 +30,7 @@ window.onload = function () {
         let card = document.createElement("div");
         card.innerHTML = `<img src="${announcements[i].image}"><div><h1>${announcements[i].date}</h1>${announcements[i].content}</div>`;
         card.classList += "card";
-        let announcementsDiv = document.getElementById("announcements") || null;
-        announcementsDiv?.appendChild(card);
+        let announcementsDiv = /** @type {HTMLDivElement} */ (document.getElementById("announcements"));
+        announcementsDiv.appendChild(card);
     }
 }
