@@ -19,6 +19,15 @@ img {
     background-color: transparent;
 }
 
+.logoButton {
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    margin: 0;
+}
+
 #bio {
     grid: auto / 1fr 3fr;
 }
