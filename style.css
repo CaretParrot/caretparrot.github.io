@@ -11,7 +11,22 @@
 img {
     width: 100%;
     padding: 0;
+    margin: 0;
     background-color: transparent;
+}
+
+button * {
+    border: none;
+}
+
+.page, #announcements, .card>div {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.card * {
+    background-color: var(--accent-element);
 }
 
 .logoButton {
@@ -65,7 +80,6 @@ iframe {
 }
 
 footer {
-    background-color: transparent;
     padding: 0;
     border: none;
 }
