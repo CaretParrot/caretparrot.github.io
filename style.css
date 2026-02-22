@@ -1,5 +1,5 @@
 .nav {
-    grid: auto / 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid: auto / 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
 }
 
 .nav * {
@@ -16,25 +16,27 @@ img {
 }
 
 .logo {
-    aspect-ratio: 1/1;
+    width: auto;
+    height: auto;
 }
 
 button * {
     border: none;
 }
 
-.page, #announcements, .card>div {
-    padding: 0;
-    border: none;
-    background-color: transparent;
-}
-
 .card * {
     background-color: var(--accent-element);
 }
 
-.logoButton {
+#announcements, #eventList {
     padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.logoButton {
+    padding: auto;
+    display: flex;
 }
 
 .logo {
