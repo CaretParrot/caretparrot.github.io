@@ -24,11 +24,12 @@ button * {
     border: none;
 }
 
-.card * {
-    background-color: var(--accent-element);
+.card div {
+    padding: 0;
+    border: none;
 }
 
-#announcements, #eventList {
+#announcements, #eventList, .card div {
     padding: 0;
     background-color: transparent;
     border: none;
