@@ -1,5 +1,6 @@
 .nav {
     display: flex;
+    background-color: var(--accent-container);
 }
 
 .nav * {
@@ -69,6 +70,11 @@ footer {
 footer * {
     background-color: transparent;
     text-align: center;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 3;
 }
 
 @media (orientation: portrait) {
