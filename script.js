@@ -14,7 +14,7 @@ fetch("announcements.json")
 
         for (let i = 0; i < announcements.length; i++) {
             let card = document.createElement("div");
-            card.innerHTML = `<img src="${announcements[i].image}"><div><h1>${announcements[i].date}</h1>${announcements[i].content}</div>`;
+            card.innerHTML = `<img src="${announcements[i].image}" alt="${announcements[i].alt}"><div><h1>${announcements[i].date}</h1>${announcements[i].content}</div>`;
             card.classList += "card";
             let announcementsDiv = /** @type {HTMLDivElement} */ (document.getElementById("announcements"));
             announcementsDiv.appendChild(card);
