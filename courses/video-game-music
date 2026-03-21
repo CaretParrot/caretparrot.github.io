@@ -21,7 +21,9 @@
     <body>
         <a href="../courses.html">&lt;-- Back To Courses</a>
         <h1>Video Game Music</h1>
-        <p>Under construction! Please check back later.</p>
+        <p>This course is still under construction and is slated to begin June 1st, 2026. In the meantime, please fill out the form below so that I can better develop this course for your needs.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSezukcXgbVVt3d6w4fBHTyXR7aPVXvF3HYAg1Cn148CwlRZSw/viewform?usp=header" target="_blank">Video Game Music Course Suggestions</a>
+        
         <footer>
             <p>Copyright © 2025-<span id="year">2025</span> Rishi Venkatesh. All rights reserved.</p>
         </footer>
