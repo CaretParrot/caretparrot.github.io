@@ -3,8 +3,12 @@
     background-color: var(--accent-container);
 }
 
-.nav * {
+a {
     background-color: var(--accent-element);
+}
+
+a>span {
+    display: inline !important;
 }
 
 img {
@@ -47,7 +51,8 @@ a {
     grid: auto / 1fr 3fr;
 }
 
-.card p, .card h1 {
+.card p,
+.card h1 {
     border: none;
 }
 
@@ -63,6 +68,7 @@ span {
 }
 
 footer {
+    background-color: var(--container);
     padding: 0;
     border: none;
 }
