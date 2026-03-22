@@ -3,8 +3,6 @@ let works;
 
 // @ts-ignore
 let year = /** @type {HTMLSpanElement} */ (document.getElementById("year"));
-// @ts-ignore
-
 year.innerHTML = (new Date()).getFullYear().toString();
 
 fetch("announcements.json")
