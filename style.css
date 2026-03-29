@@ -1,10 +1,13 @@
 .nav {
     display: flex;
     background-color: var(--accent-container);
+    position: sticky;
+    top: 0;
 }
 
 a {
     background-color: var(--accent-element);
+    display: flex;
 }
 
 a>span {
@@ -19,10 +22,6 @@ img {
 
 button * {
     border: none;
-}
-
-a {
-    display: flex;
 }
 
 #announcements,
@@ -80,7 +79,7 @@ footer * {
 
 iframe {
     width: 100%;
-    aspect-ratio: 3;
+    aspect-ratio: 2;
 }
 
 @media (orientation: portrait) {
