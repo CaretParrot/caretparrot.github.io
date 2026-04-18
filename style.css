@@ -1,27 +1,27 @@
 .nav {
     display: flex;
+    flex-flow: row wrap;
     background-color: var(--accent-container);
-    position: sticky;
-    top: 0;
 }
 
 a {
-    background-color: var(--accent-element);
     display: flex;
+    background-color: var(--accent-element);
 }
 
-a>span {
-    display: inline !important;
+.nav a {
+    flex-flow: column wrap;
+    font-size: calc(var(--base-unit) * 0.75);
+}
+
+.nav span {
+    font-size: calc(var(--base-unit) * 1.25);
 }
 
 img {
     width: 100%;
     padding: 0;
     margin: auto;
-}
-
-button * {
-    border: none;
 }
 
 #announcements,
