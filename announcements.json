@@ -1,7 +1,9 @@
 [
     {
         "date": "Apr 18 2026",
-        "content": "<p>I am planning on launching a summer course on video game music! Check the courses tab above for information about the course and when it will begin. We will be covering music from various video games and analyzing the themes and effects that they have on the listener. Stay tuned! <br><br> For now, check out the course website here: \"https://caretparrot.github.io/courses/video-game-music.html\". It's still under construction so stuff will change over time. I'm planning on changing a lot about how the course will run, so don't freak out about the assignments or things like that, I'll update the page as needed. <br><br> Additionally, please fill out the form here: \"https://docs.google.com/forms/d/e/1FAIpQLSezukcXgbVVt3d6w4fBHTyXR7aPVXvF3HYAg1Cn148CwlRZSw/viewform\". I need your suggestions on what games you want to see covered in the course!</p>"
+        "image": "./assets/RV Composition Studios.webp",
+        "alt": "RVCS Logo",
+        "content": "<p>I am planning on launching a summer course on video game music! Check the courses tab above for information about the course and when it will begin. We will be covering music from various video games and analyzing the themes and effects that they have on the listener. Stay tuned! <br><br> For now, check out the course website <a href=\"https://caretparrot.github.io/courses/video-game-music.html\">here</a>. It's still under construction so stuff will change over time. I'm planning on changing a lot about how the course will run, so don't freak out about the assignments or things like that, I'll update the page as needed. <br><br> Additionally, please fill out the form <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSezukcXgbVVt3d6w4fBHTyXR7aPVXvF3HYAg1Cn148CwlRZSw/viewform\">here</a>. I need your suggestions on what games you want to see covered in the course!</p>"
     },
     {
         "date": "Nov 01 2025",
