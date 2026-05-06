@@ -81,6 +81,21 @@ iframe {
     aspect-ratio: 2;
 }
 
+time {
+    font-weight: 700;
+}
+
+.calendar-wrapper {
+    padding: 0;
+    border: none;
+    grid: auto / 1fr 2fr 2fr;
+}
+
+.wrapper {
+    padding: 0;
+    border: none;
+}
+
 @media (orientation: portrait) {
     #bio h1 {
         grid-column: 1;
