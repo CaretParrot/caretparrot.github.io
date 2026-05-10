@@ -32,7 +32,7 @@ img {
 }
 
 #bio {
-    grid: auto / 1fr 3fr;
+    grid: auto / 1fr 4fr;
 }
 
 #bio h1 {
@@ -46,7 +46,7 @@ img {
 
 .card {
     background-color: var(--element);
-    grid: auto / 1fr 3fr;
+    grid: auto / 1fr 4fr;
 }
 
 .card p,

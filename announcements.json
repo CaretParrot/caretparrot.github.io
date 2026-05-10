@@ -1,9 +1,15 @@
 [
     {
+        "date": "May 09 2026",
+        "image": "./assets/RV Composition Studios.webp",
+        "alt": "RVCS Logo",
+        "content": "<p>The course schedule is mostly complete! I still have room to include more games so please fill out the application form and add your suggestions if you want to join! Please fill out the form <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeipArBnp_4ZgzArkxtASdbCcGXClAgB_Y0t1xLvtW46QBUgw/viewform?usp=header\" target=\"_blank\">here</a>. The course syllabus has also been updated, so please <a href=\"https://caretparrot.github.io/courses/video-game-music.html\" target=\"_blank\">review it</a> if you read the old one or if you haven't already.</p>"
+    },
+    {
         "date": "Apr 18 2026",
         "image": "./assets/RV Composition Studios.webp",
         "alt": "RVCS Logo",
-        "content": "<p>I am planning on launching a summer course on video game music! Check the courses tab above for information about the course and when it will begin. We will be covering music from various video games and analyzing the themes and effects that they have on the listener. Stay tuned! <br><br> For now, check out the course website <a href=\"https://caretparrot.github.io/courses/video-game-music.html\">here</a>. It's still under construction so stuff will change over time. I'm planning on changing a lot about how the course will run, so don't freak out about the assignments or things like that, I'll update the page as needed. <br><br> Additionally, please fill out the form <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSezukcXgbVVt3d6w4fBHTyXR7aPVXvF3HYAg1Cn148CwlRZSw/viewform\">here</a>. I need your suggestions on what games you want to see covered in the course!</p>"
+        "content": "<p>I am planning on launching a summer course on video game music! Check the courses tab above for information about the course and when it will begin. We will be covering music from various video games and analyzing the themes and effects that they have on the listener. Stay tuned! <br><br> For now, check out the course website <a href=\"https://caretparrot.github.io/courses/video-game-music.html\" target=\"_blank\">here</a>. It's still under construction so stuff will change over time. I'm planning on changing a lot about how the course will run, so don't freak out about the assignments or things like that, I'll update the page as needed. <br><br> Additionally, please fill out the form <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeipArBnp_4ZgzArkxtASdbCcGXClAgB_Y0t1xLvtW46QBUgw/viewform?usp=dialog\" target=\"_blank\">here</a>. I need your suggestions on what games you want to see covered in the course!</p>"
     },
     {
         "date": "Nov 01 2025",
@@ -15,7 +21,7 @@
         "date": "Sep 27 2025",
         "image": "./assets/Torque.webp",
         "alt": "Torque Album Cover",
-        "content": "<p>I have launched a few new electronic tracks on YouTube, which will be part of my upcoming album, <em>Torque</em>. One of them is a remaster of a work that was previously on Bandlab, <a href=\"https://youtu.be/bAEICr0filc\">Stardust</a>. The other is <a href=\"https://youtu.be/JkiadaV2_DE\">Orange Light</a>, a totally new work. Hope you enjoy!</p>"
+        "content": "<p>I have launched a few new electronic tracks on YouTube, which will be part of my upcoming album, <em>Torque</em>. One of them is a remaster of a work that was previously on Bandlab, <a href=\"https://youtu.be/bAEICr0filc\" target=\"_blank\">Stardust</a>. The other is <a href=\"https://youtu.be/JkiadaV2_DE\" target=\"_blank\">Orange Light</a>, a totally new work. Hope you enjoy!</p>"
     },
     {
         "date": "Sep 13 2025",
